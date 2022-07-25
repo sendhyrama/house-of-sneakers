@@ -1,4 +1,48 @@
-.App {
+
+.parentbox {
+  width: 80%;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.foto {
+  float: left;
+  width: 50%;
+  overflow: hidden;
+  background: #fafafa;
+}
+
+.foto img {
+  width: 100%;
+}
+
+.deskripsi {
+  width: 40%;
+  overflow: hidden;
+  float: left;
+  margin-left: 30px;
+}
+
+.deksripsi .info {
+  line-height: 1,8;
+  color: black;
+}
+
+.deskripsi .harga {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.deskripsi .title {
+  margin: 0;
+}
+
+.deskripsi .cate {
+  color: black;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +79,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
